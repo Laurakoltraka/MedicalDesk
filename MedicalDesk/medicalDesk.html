@@ -1,251 +1,497 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              blue: "#09425A",
-              grey: " #D0D8DA",
-              green: "#0FB7B6",
-              azienda: "#009ABB",
-              lightgrey: "#F0F4F5",
-              confirmpg: "#16C5B3",
-            },
-          },
-        },
-      };
-    </script>
-  </head>
-  <body>
-    <section class="min-h-screen justify-center">
-      <div class="bg-fixed bg-[#09425A] flex justify-around w-full mt-1 mb-1">
-        <div class="text-[white] mt-6 mb-6">
-          <img
-            class="w-28"
-            src="https://s3-alpha-sig.figma.com/img/a223/5d33/cf968b185debfb9010679671acfe5e8b?Expires=1670803200&Signature=cs3ac4baIFovsvpNl3hKCLL1DZONH5cTE1dqcCUsco0y5inNxPr5WHQBoLe8yYHdrj7OhlhvdidChTyiLr6hQtZyFAXtECFg5Gdq~1Eq7hmoC4KwsFX6PUdR~zKYcHuFf4slC4-uza5VhHIzmxVVcP4VBphRMux4GrS63PqvmIwMyfp~rDIoKRTO1m~Y~vL0ZqViaiA54YFU2vD7iRLKHscxaELfJErtTcJQmuVyBpFaW7D6TvPzmO4WszDojaWENpdRrrmtLlGpwDojhSI3yWQgLsmhra7LVjJWUoyYrIh5wE2Xvoa6GRlct-7xjrc4GiIuBafRL9bfv4i1tn7AZw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-          />
-        </div>
-<div></div>
-        <div class="my-6 object-center border rounded-sm border-transparent ">
-          <form class="mt-1 mb-1 px-8">
-            <!-- <img src="flag.PNG "> -->
-            <select name="languages" id="languages">
-              <option class="font-Italiano" value="Italian">Italiano</option>
-            </select>
-          </form>
-        </div>
-      </div>
 
-      <div class="mr-[160px]  ml-[135px]">
-        <div></div>
-        <div class="">
-          <h1>PRENOTA SERVIZIOIN STORE</h1>
-          <p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com">
+
+
+
+    // tailwind.config = {
+    //   theme: {
+    //     extend: {
+    //       colors: {
+    //         blue: "#09425A",
+    //         grey: " #D0D8DA",
+    //         green: "#0FB7B6",
+    //         azienda: "#009ABB",
+    //         lightgrey: "#F0F4F5",
+    //         confirmpg: "#16C5B3",
+    //       },
+    //     },
+    //   },
+    // };
+  </script>
+</head>
+
+<body>
+  <section class="max-h-screen overflow-x-hidden justify-center">
+    <div class="bg-fixed bg-[#09425A] flex justify-around w-full mt-1 mb-1">
+      <div class="text-[white] mt-6 mb-6">
+        <img class="w-28"
+          src="https://s3-alpha-sig.figma.com/img/a223/5d33/cf968b185debfb9010679671acfe5e8b?Expires=1670803200&Signature=cs3ac4baIFovsvpNl3hKCLL1DZONH5cTE1dqcCUsco0y5inNxPr5WHQBoLe8yYHdrj7OhlhvdidChTyiLr6hQtZyFAXtECFg5Gdq~1Eq7hmoC4KwsFX6PUdR~zKYcHuFf4slC4-uza5VhHIzmxVVcP4VBphRMux4GrS63PqvmIwMyfp~rDIoKRTO1m~Y~vL0ZqViaiA54YFU2vD7iRLKHscxaELfJErtTcJQmuVyBpFaW7D6TvPzmO4WszDojaWENpdRrrmtLlGpwDojhSI3yWQgLsmhra7LVjJWUoyYrIh5wE2Xvoa6GRlct-7xjrc4GiIuBafRL9bfv4i1tn7AZw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" />
+      </div>
+      <div></div>
+      <div class="my-6 object-center border rounded-sm border-transparent ">
+        <form class="mt-1 mb-1 px-8">
+          <!-- <img src="flag.PNG "> -->
+          <select name="languages" id="languages">
+            <option class="font-Italiano" value="Italian">Italiano</option>
+          </select>
+        </form>
+      </div>
+    </div>
+   
+    <div class="text-[#09425A] my-[60px] mx-[90px]"><i class="fa-sharp fa-solid fa-circle-arrow-left fa-3x"></i></div>
+
+    <div class="mr-[190px]  ml-[190px]">
+      <div></div>
+      <div class=" text-[#09425A]">
+
+        <div>
+          <p class="font-extrabold text-[28px] mt-9 mb-3">PRENOTA SERVIZIOIN STORE </p>
+          <p class="w-[600px] mb-[60px]">
             All interno delle strutture e dei mezzi ParkinGO è necessario
             indossare la mascherina e rispettare la distanza di sicurezza
             interpersonale.
           </p>
-          <div class=" ">
-            <h3>01. Prenota ora i tamponi in Drive-in</h3>
-            <div class="bg-[#D0D8DA] mx-7 w-full ">ParkingGO Malpensa</div>
-          </div>
+        </div>
+        <div class=" ">
+          <div class="font-bold text-[24px] my-5"> 01. Prenota ora i tamponi in Drive-in</div>
 
-          <h3>02. Prenota ora i tamponi in Drive-in</h3>
-          <div class="flex">
-            <div class="bg-[#D0D8DA] flex-2 mx-7 w-3/12 h-32">
-              <p>Tampone Rapido Antigenico</p>
-              <div>50$</div>
-              <div class="contents">
-                <form action="">
-                  <p class="flex-1">
-                    Qta<select class="flex=1">
-                      <option value="nr">0</option>
-                    </select>
-                  </p>
-                </form>
+          <div class=" flex justify-between bg-[#D0D8DA]  my-5 w-[900px] h-[110px] border rounded ">
+            <div class="text-[18px] mt-9 ml-[30px]"><i
+                class="fa-solid fa-location-dot fa-2x mr-[30px] ml-2 "></i>ParkingGO Malpensa</div>
+            <div class="text-[14px] text-right mr-[60px]   underline underline-offset-8">Modiﬁca negozio</div>
+          </div>
+        </div>
+        <div class="my-9">
+          <p class="font-bold text-[24px] my-5">02. Prenota ora i tamponi in Drive-in </p>
+
+          <div class="flex ">
+            <div class="bg-[#D0D8DA] text-[14px] text-white flex-2 mr-4 w-[300px] h-32 border rounded ">
+
+              <div class="flex my-4 ml-4">
+                <p class="mr-3">Tampone Rapido Antigenico</p><i class="fa-solid fa-circle-info mt-1 "></i>
+              </div>
+              <div class="flex ">
+                <div class="mr-8 ml-3 text-[28px] font-bold">50$</div>
+                <div class="contents ml-5">
+                  <form action="">
+                    <p class="flex-2 mt-4 mb-7 ml-[90px] ">
+                      Qta<select class="bg-[#D0D8DA] border-[1px] w-[60px] h-[30px] rounded border-white-500 ml-2">
+                        <option value="nr">0</option>
+                      </select>
+                    </p>
+                  </form>
+                </div>
               </div>
             </div>
 
-            <div class="bg-[#0FB7B6] flex- mx-7 w-3/12 h-32">
-              <p>Tampone Rapido Antigenico</p>
-              <div>95$</div>
-              <div>
-                <form action="">
-                  <p class="flex-1">
-                    Qta<select class="flex-1">
-                      <option value="nr">0</option>
-                    </select>
-                  </p>
-                </form>
+            <div class="bg-[#0FB7B6]  text-[#ffffff] text-[14px] flex-2 ml-4  w-[300px] h-32 border rounded ">
+              <div class="flex my-4 ml-4 ">
+                <p class="mr-3">Tampone Rapido Antigenico</p><i class="fa-solid fa-circle-info mt-1 "></i>
               </div>
+              <div class="flex ">
+                <div class="mr-8 ml-3 text-[28px] font-bold">95$</div>
+                <div class="contents ml-5">
+                  <form action="">
+                    <p class="flex-2 mt-4 mb-8 ml-[90px]">
+                      Qta<select class=" bg-[#0FB7B6] border-[1px] w-[60px] h-[30px] rounded border-white-500 ml-2">
+                        <option value="nr">0</option>
+                      </select>
+                    </p>
+                  </form>
+                </div>
+              </div>
+
+
+
+
             </div>
           </div>
-          <div class=" ">
-            <h3>03. Scegli fra le date e orari disponsibili</h3>
-            
-            <div><p>Date</p>
+          <div class=" text-[#09425A] ">
+            <p class="font-bold text-[24px] my-5">03. Scegli fra le date e orari disponsibili</p>
+
+            <div class="w-[1000px]">
+              <p>Date</p>
               <!--DAYS-->
-             <form action=""> 
-              <input class="border   rounded w-[125px] h-[28px] mr-2  my-4 text-[11px] bg-[#D0D8DA] " type="button" value=" Lunedi27" onclick="">
-              <input class="border  rounded w-[125px] h-[28px] mr-2 my-4 text-[11px] bg-[#D0D8DA] " type="button" value=" Lunedi27" onclick="">
-              <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px] bg-[#0FB7B6] text-white" type="button" value=" Lunedi27" onclick="">
-              <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value=" Lunedi27" onclick="">
-              <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value=" Lunedi27" onclick="">
-              <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value=" Lunedi27" onclick="">
-              <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value=" Lunedi27" onclick="">
-              <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value=" Lunedi27" onclick="">
-              <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value=" Lunedi27" onclick="">
-              <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value=" Lunedi27" onclick="">
-            </form>
+              <form action="">
+                <input class="border   rounded w-[125px] h-[28px] mr-2  my-4 text-[11px] bg-[#D0D8DA] " type="button"
+                  value=" Lunedi27" onclick="">
+                <input class="border  rounded w-[125px] h-[28px] mr-2 my-4 text-[11px] bg-[#D0D8DA] " type="button"
+                  value=" Lunedi27" onclick="">
+                <input
+                  class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px] bg-[#0FB7B6] text-white"
+                  type="button" value=" Lunedi27" onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value=" Lunedi27" onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value=" Lunedi27" onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value=" Lunedi27" onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value=" Lunedi27" onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value=" Lunedi27" onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value=" Lunedi27" onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value=" Lunedi27" onclick="">
+              </form>
             </div>
-           
-            <div> <p class="mb-0">Orari</p> 
+
+            <div class="w-[1000px]">
+              <p class="mb-0 text-[#09425A] ">Orari</p>
               <!--ORARI-->
-              <form action=""> 
-                <input class="border   rounded w-[125px] h-[28px] mr-2 my-4 text-[11px] bg-[#D0D8DA]" type="button" value="10:00 " onclick="">
-                <input class="border   rounded w-[125px] h-[28px] mr-2 my-4 text-[11px] bg-[#D0D8DA]" type="button" value="10:00 " onclick="">
-                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2  text-[11px] bg-[#0FB7B6] text-white" type="button" value="10:00 " onclick="">
-                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value="10:00 " onclick="">
-                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value="10:00 " onclick="">
-                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value="10:00 " onclick="">
-                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value="10:00 " onclick="">
-                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value="10:00 " onclick="">
-                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value="10:00 " onclick="">
-                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value="10:00 " onclick="">
-                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value="10:00 " onclick="">
-                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]" type="button" value="10:00 " onclick="">
+              <form action="">
+                <input class="border   rounded w-[125px] h-[28px] mr-2 my-4 text-[11px] bg-[#D0D8DA]" type="button"
+                  value="10:00 " onclick="">
+                <input class="border   rounded w-[125px] h-[28px] mr-2 my-4 text-[11px] bg-[#D0D8DA]" type="button"
+                  value="10:00 " onclick="">
+                <input
+                  class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2  text-[11px] bg-[#0FB7B6] text-white"
+                  type="button" value="10:00 " onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value="10:00 " onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value="10:00 " onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value="10:00 " onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value="10:00 " onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value="10:00 " onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value="10:00 " onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value="10:00 " onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value="10:00 " onclick="">
+                <input class="border border-[#0FB7B6] border-2 rounded w-[125px] h-[28px] mr-2 text-[11px]"
+                  type="button" value="10:00 " onclick="">
 
               </form>
             </div>
           </div>
 
-          <div class="mt-8 mb-5 w-full">
-            <h3 class="my-7">04. Dati anagrafici</h3>
-            <div>  <div class="flex w-[1405px]">
-             
-              <div class="flex-2 mr-2 w-[550px]">
-              <form class=" mr-2 w-[450px] ">
-                 <div >
-               <label for="fname">Nome </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]  " type="text" id="fname" name="fname"><br>
-                
-              </div>
-              <div>
-                <label for="email">Email   </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="email" name="email"><br>
-                <p class="my-4 font-sans  text w-[484px] h-[34px]  text-xs">La conferma verrà invita a questa mail. <br> 
-                  Si richiede di utilizzare la mail propria personale non mail aziendali</p>
-                </div>
-                <div><label for="nazionalita">Nazionalita </label><br>
-                
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="nazionalita" name="nazionalita"><br>
-                </div>
-                <div><label for="dtNascita">Data di nascita </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="dtNascita" name="dtNascita"><br>
-                </div>
-                <div><label for="residenca">Comune residenza </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="residenca" name="residenca"><br>
-                 </div>
-                 <div><label for="indirizzo">Indirizzo  </label><br>
-                  <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="indirizzo" name="indirizzo"><br>
-                   </div>
-              </form></div>
-              <div class="flex-2 mr-2 w-[450px] ">
-              <form class=" mr-2 w-[450px]">
-                <div>
-                  <label for="cogname">Cogname </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="cogname" name="cogname"><br>
-              </div>
-              <div>
-                <label for="cellulare"> Cellulare</label>   <br>
-                <!-- <input class="border border-[#0FB7B6] rounded mr-[0px] appearance-none  w-[100px]" type="text" id="cellulare" name="cellulare">  -->
-                <form >
-                
-                  <select class=" border border-[#0FB7B6] border-[1.5px] rounded mr-[0px]   w-[100px] text-right"  name="languages" id="languages">
-                    <option  value="Italian">+39</option>
-                  </select>
-                </form>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[300px]" type="text" id="cellulare" name="cellulare"><br>
-              </div>
-              <div class="my-16"></div>
+          <div class="mt-8 mb-5 ">
+            <h3 class="font-bold text-[24px] my-5 text-[#09425A]">04. Dati anagrafici</h3>
+            <div>
+              <div class="flex w-[1300px]">
 
-              <div>
-                <label for="codeFiskale">Code di fiscale  </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="codeFiskale" name="codeFiskale"><br>
+                <div class="flex-2 mr-1 w-[500px]">
+                  <form class=" mr-1 w-[400px] ">
+                    <div class="text-[#09425A]">
+                      <label for="fname">Nome </label><br>
+                      <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2 " type="text"
+                        id="fname" name="fname"><br>
+
+                    </div>
+                    <div class="text-[#09425A]">
+                      <label for="email">Email </label><br>
+                      <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text" id="email"
+                        name="email"><br>
+                      <p class="my-4 font-sans  text w-[484px] text-[#09425A] h-[34px]  text-xs">La conferma verrà
+                        invita
+                        a questa mail. <br>
+                        Si richiede di utilizzare la mail propria personale non mail aziendali</p>
+                    </div>
+                    <div><label for="nazionalita">Nazionalita </label><br>
+
+                      <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text"
+                        id="nazionalita" name="nazionalita"><br>
+                    </div>
+                    <div><label for="dtNascita">Data di nascita </label><br>
+                      <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2 placeholder-opacity-75"
+                        type="text" id="dtNascita" name="dtNascita" placeholder=" DD/MM/YYYY"><br>
+                    </div>
+                    <div><label for="residenca">Comune residenza </label><br>
+                      <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text"
+                        id="residenca" name="residenca"><br>
+                    </div>
+                    <div><label for="indirizzo">Indirizzo </label><br>
+                      <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text"
+                        id="indirizzo" name="indirizzo"><br>
+                    </div>
+                  </form>
+                </div>
+                <div class="flex-2 mr-2 w-[450px] ">
+                  <form class=" mr-2 w-[450px]">
+                    <div>
+                      <label for="cogname">Cogname </label><br>
+                      <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text"
+                        id="cogname" name="cogname"><br>
+                    </div>
+                    <div>
+                      <label for="cellulare"> Cellulare</label> <br>
+                    
+                      <form>
+
+                        <select class=" border border-[#0FB7B6] border-[1.5px] rounded mr-[0px] my-2  w-[100px] text-right"
+                          name="languages" id="languages">
+                          <option value="Italian">+39</option>
+                        </select>
+                      </form>
+                      <input class="border border-[#0FB7B6] rounded  appearance-none  w-[300px] my-2" type="text"
+                        id="cellulare" name="cellulare"><br>
+                    </div>
+                    <div class="my-16"></div>
+
+                    <div>
+                      <label for="codeFiskale">Code di fiscale </label><br>
+                      <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text"
+                        id="codeFiskale" name="codeFiskale"><br>
+                    </div>
+                    <div class="my-3">
+                      <label for="sesso ">Sesso </label><br>
+                      <div class="flex items-center  mb-2">
+                        <input id="default-radio-1" type="radio" value="" name="default-radio"
+                          class="w-4 h-4 text-[#0FB7B6] border-[#0FB7B6]  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="default-radio-1"
+                          class="ml-2 mr-6 text-sm font-medium text-gray-900 dark:text-gray-300"> M</label>
+
+                        <input checked id="default-radio-2" type="radio" value="" name="default-radio"
+                          class="w-4 h-4 text-blue-600 border-[#0FB7B6] focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="default-radio-2"
+                          class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">F</label>
+                      </div>
+                    </div>
+                    <div>
+                      <label for="cap">
+                        <Cap></Cap>
+                      </label><br>
+                      <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="cap"
+                        name="cap">
+                    </div>
+                  </form>
+                </div>
               </div>
-              <div>
-                 <label for="sesso">Sesso </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="sesso" name="sesso">
+              <div class="w-[1350px]">
+                <div class="form-check flex my-3">
+                  <input class="form-check-input mx-3 mt-6" type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label mt-6 text-[12px] text-[#09425A]" for="flexCheckDefault">Ho preso
+                    visione
+                    dell’informativa sul trattamento dei miei dati personali e i Termini e Condizioni *(leggi) </label>
+                </div>
+                <div class="form-check flex">
+                  <input class="form-check-input mx-3 " type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label my-3 text-[12px] sans-serif text-[#09425A]" for="flexCheckDefault">
+                    <p> Ho preso visione dell’informativa sul trattamento dei miei dati personali e do il consenso al
+                      loro
+                      trattamento da parte di Medispa <br> S.r.l. quale unico Responsabile Esterno del trattamento dei
+                      dati sanitari. * (leggi)
+                      ) </p>
+                  </label>
+                </div>
               </div>
-              <div>
-                <label for="cap"><Cap></Cap> </label><br>
-               <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="cap" name="cap">
-             </div>
-              </form></div></div></div></div>
 
 
+              <button class="border  rounded-[50px] w-[400px] h-[60px] mr-2 my-4 text-[9px] bg-[#D0D8DA]">
+                <p class="text-[36px] font-[650] text-white">AVANTI</p>
+              </button>
             </div>
-            <div class="  w-[1410px] ">
-              <h3 class="mt-8 mb-5">05. Tipo di ricevuta </h3>
-              <div><p>A chi dovrà essere intestata la fattura?</p>
-              </div>
-              <div class="flex w-[1405px]">
-             
-              <div class="flex-2 mr-2 w-[550px]">
-              <form class=" mr-2 w-[450px] ">
-                 <div >
-               <label for="fname">Nome </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]  " type="text" id="fname" name="fname"><br>
-              </div>
-              <div>
-                <label for="cdfiscale">Codice Fiscale  </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="cdfiscale" name="cdfiscale"><br>
+          </div>
+
+
+        </div>
+        <div class="  w-[1300px]  text-[#09425A]">
+          <p class="mt-8 mb-5 font-bold text-[24px] my-5 ">05. Tipo di ricevuta </p>
+          <div class="flex my-4 ">
+            <p>A chi dovrà essere intestata la fattura?</p>
+          </div>
+          <div class="mt-4 mb-8">
+            <button type="button"
+              class=" text-[#009ABB] text-[18px] w-[200px] h-[60px] border border-[#D0D8DA] bg-[#D0D8DA]   font-medium rounded-sm text-sm px-5 py-2.5 text-center mr-2 mb-2 ml-2 ">
+              <i class="fa-solid fa-users mr-4 fa-lg "></i>Azienda</button>
+            <button type="button"
+              class="text-white text-[18px]  w-[200px] h-[60px] border border-[#0FB7B6] bg-[#0FB7B6]   font-medium rounded-sm text-sm px-5 py-2.5 text-center mr-2 mb-2  ">
+              <i class="fa-solid fa-user mr-4 fa-lg"></i>Privato</button>
+          </div>
+
+          <div class="flex w-[1300px]">
+
+            <div class="flex-2 mr-2 w-[500px]">
+              <form class=" mr-2 w-[400px] ">
+                <div>
+                  <label for="fname">Nome </label><br>
+                  <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2 " type="text" id="fname"
+                    name="fname"><br>
+                </div>
+                <div>
+                  <label for="cdfiscale">Codice Fiscale </label><br>
+                  <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text" id="cdfiscale"
+                    name="cdfiscale"><br>
                 </div>
                 <div><label for="indirizzo">Indirizzo </label><br>
-                
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="indirizzo" name="indirizzo"><br>
+
+                  <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text" id="indirizzo"
+                    name="indirizzo"><br>
                 </div>
                 <div><label for="cap">Cap </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="cap" name="cap"><br>
+                  <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text" id="cap"
+                    name="cap"><br>
                 </div>
                 <div><label for="nazione">Nazione </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="nazione" name="nazione"><br>
-                 </div>
-              </form></div>
-              <div class="flex-2 mr-2 w-[450px] ">
+                  <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text" id="nazione"
+                    name="nazione"><br>
+                </div>
+              </form>
+            </div>
+            <div class="flex-2 mr-2 w-[450px] ">
               <form class=" mr-2 w-[450px]">
                 <div>
                   <label for="cogname">Cogname </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="cogname" name="cogname"><br>
-              </div>
-              <div>
-                <label for="email">Email invio fattura </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="email" name="email"><br>
-              </div>
-              <div>
-                <label for="citta">Citta </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="citta" name="citta"><br>
-              </div>
-              <div>
-                 <label for="provinzia">Provinzia </label><br>
-                <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px]" type="text" id="provinzia" name="provinzia">
-              </div>
-              </form></div></div></div>
-           <br>
-
-            <button class="border  rounded-[50px] w-[400px] h-[60px] mr-2 my-4 text-[9px] bg-[#D0D8DA]">
-              <p class="text-[36px] font-[650] text-white">VERIFICA</p>
-            </button> </div>
+                  <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text" id="cogname"
+                    name="cogname"><br>
+                </div>
+                <div>
+                  <label for="email">Email invio fattura </label><br>
+                  <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text" id="email"
+                    name="email"><br>
+                </div>
+                <div>
+                  <label for="citta">Citta </label><br>
+                  <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text" id="citta"
+                    name="citta"><br>
+                </div>
+                <div>
+                  <label for="provinzia">Provinzia </label><br>
+                  <input class="border border-[#0FB7B6] rounded  appearance-none  w-[400px] my-2" type="text" id="provinzia"
+                    name="provinzia">
+                </div>
+              </form>
+            </div>
           </div>
-          
+        </div>
+        <br>
+
+        <button class="border  rounded-[50px] w-[400px] h-[60px] mr-2 my-4 text-[9px] bg-[#D0D8DA]">
+          <p class="text-[36px] font-[650] text-white">VERIFICA</p>
+        </button>
+
+        <div class=" ">
+          <h3 class=" text-[#09425A] mt-8 mb-5 font-bold text-[24px] my-5">06. Metodo di pagamento </h3>
+
+          <div class=" my-9 ">
+           
+            <div class="my-9 text-sm text-[#09425A] ">
+              <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 ">
+              <label for="default-radio-1 " class="ml-2 mr-3 text-sm text-[#09425A] "> Carta di credito</label>
+              <i class="fa-brands fa-cc-mastercard fa-lg mr-1"></i><i class="fa-brands fa-cc-visa fa-lg mr-1"></i><i class="fa-brands fa-cc-amex fa-lg"></i>
+            </div>
+            
+
+            <div class=" my-9 border rounded-[sm] bg-[#F0F4F5]">
+              <form class="m-4">
+                <div class="grid gap-6 my-6 mx-5 md:grid-cols-2">
+                  <div class="  mb-6">
+                    <label for="provinzia" class="text-[#09425A] block mb-2 text-sm ">Provinzia</label>
+                    <input type="provinzia" id="provinzia"
+                      class=" border border-[#0FB7B6] text-gray-900 text-sm rounded-sm   w-[810px] p-2.5 " required>
+                  </div><br>
+                  <div>
+                    <label for="first_name" class="text-[#09425A] block mb-2 text-sm ">Data di scandeza</label>
+                    
+                    <input type="text" id="first_name"
+                      class=" border border-[#0FB7B6] text-gray-900 text-sm rounded-sm  block w-full p-2.5 " required>
+                      
+                  </div>
+                  <div>
+                    <label for="last_name" class="text-[#09425A] block mb-2 text-sm">CVC/CVV</label>
+                    <input type="text" id="last_name"
+                      class=" border border-[#0FB7B6] text-gray-900 text-sm rounded-sm  block w-full p-2.5 " required>
+                  </div>
+                  <div class="  mb-6">
+                    <label for="NomeSuallaCarta" class="text-[#09425A] block mb-2 text-sm  ">Nome sualla carta</label>
+                    <input type="NomeSuallaCarta" id="NomeSuallaCarta"
+                      class=" border border-[#0FB7B6] text-gray-900 text-sm rounded-sm   w-[810px] p-2.5 " required>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+
+            <div>
+              <div class="my-9 text-sm text-[#09425A] ">
+                <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 ">
+                <label for="default-radio-1 " class="ml-2 mr-3 text-sm text-[#09425A] "> Paypal</label><i
+                  class="fa-brands fa-paypal mr-3 "></i>Che cos’e PayPal?
+              </div>
+              <div class="my-9">
+                <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 ">
+                <label for="default-radio-1 " class="ml-2 mr-6 text-sm text-[#09425A] "> GooglePay</label> </label>
+              </div>
+
+              <div>
+                <div class="form-check flex my-3">
+                  <input class="form-check-input mt-6" type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label mx-4 mt-6 text-[#09425A]" for="flexCheckDefault">Ho preso visione
+                    dell’informativa sul trattamento dei miei dati personali e i Termini e Condizioni *(leggi) </label>
+                </div>
+                <div class="form-check flex">
+                  <input class="form-check-input  " type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label mx-4 my-3 text-[#09425A]" for="flexCheckDefault">
+                    <p> Ho preso visione dell’informativa sul trattamento dei miei dati personali e do il consenso al
+                      loro trattamento da parte di Medispa S.r.l. quale unico Responsabile Esterno del trattamento dei
+                      dati sanitari. * (leggi) </p>
+                  </label>
+                </div>
+                <div class="form-check flex">
+                  <input class="form-check-input  " type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label mx-4 my-3 text-[#09425A]" for="flexCheckDefault">Ho preso visione
+                    dell’informativa sul trattamento dei miei dati personali e do il consenso al loro trattamento da
+                    parte di Medispa S.r.l. quale unico Responsabile Esterno del trattamento dei dati sanitari. *
+                    (leggi) </label>
+                </div>
+              </div>
+            </div> 
+            <button class="border  rounded-[50px] w-[400px] h-[60px] mr-2 my-4 text-[9px] bg-[#16C5B3]">
+              <p class="text-[26px] font-[550] text-white">CONFERMA E PAGA</p>
+            </button>
+
+          </div>
+
 
         </div>
       </div>
-    </section>
-  </body>
+</div>
+
+
+
+
+      <div class="bg-fixed relative bg-[#09425A] flex  w-full h-[200px]  mt-1 mb-1 ">
+        <div class="text-[white] mt-6 mb-6 ml-[200px]">
+          <img class="w-20"
+            src="https://s3-alpha-sig.figma.com/img/a223/5d33/cf968b185debfb9010679671acfe5e8b?Expires=1670803200&Signature=cs3ac4baIFovsvpNl3hKCLL1DZONH5cTE1dqcCUsco0y5inNxPr5WHQBoLe8yYHdrj7OhlhvdidChTyiLr6hQtZyFAXtECFg5Gdq~1Eq7hmoC4KwsFX6PUdR~zKYcHuFf4slC4-uza5VhHIzmxVVcP4VBphRMux4GrS63PqvmIwMyfp~rDIoKRTO1m~Y~vL0ZqViaiA54YFU2vD7iRLKHscxaELfJErtTcJQmuVyBpFaW7D6TvPzmO4WszDojaWENpdRrrmtLlGpwDojhSI3yWQgLsmhra7LVjJWUoyYrIh5wE2Xvoa6GRlct-7xjrc4GiIuBafRL9bfv4i1tn7AZw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" />
+
+          <div class="text-[8px] my-4">
+            Adress, Tirana, Albania <br>
+            Email: online@example.com <br>
+            Phone: xxx xxx xxx xxx
+          </div>
+
+
+        </div>
+        <div class="my-6 ml-[157px]">
+          <h1 class="font-bold text-[#ffffff]">Supporto</h1><br>
+          <div class="flex flex-3 justify-around text-white text-[11px]">
+            <div class="mr-5 ">Faq</div>
+            <div class="mr-5">Privacy</div>
+            <div>Termini e condizicioni</div>
+
+          </div>
+
+        </div>
+        <div class="absolute inset-x-0 bottom-0 text-white ml-[200px] mb-4 text-[13px] ">2021 © Created by New Media Communications </div>
+      </div>
+
+  </section>
+
+</body>
+
 </html>
